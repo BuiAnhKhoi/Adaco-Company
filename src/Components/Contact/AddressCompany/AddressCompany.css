@@ -1,0 +1,124 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.lightMode .AddressCompany {
+  background-color: white;
+}
+
+.darkMode .AddressCompany {
+  background-color: gray;
+}
+
+.contact__inner {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  /* margin-top: 100px; */
+}
+
+.contact__infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.lightMode .contact__infor div h3 {
+  font-size: 2rem;
+}
+
+.darkMode .contact__infor div h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.lightMode .contact__infor div p {
+  font-size: 20px;
+}
+
+.darkMode .contact__infor div p {
+  font-size: 20px;
+  color: white;
+}
+
+.lightMode .contact__infor div p a {
+  font-size: 20px;
+}
+
+.darkMode .contact__infor div p a {
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+  .lightMode .contact__infor div h3,
+  .darkMode .contact__infor div h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .lightMode .contact__infor div h3,
+  .darkMode .contact__infor div h3 {
+    font-size: 1rem;
+  }
+
+  .contact__map iframe {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+  }
+
+  .contact__map iframe {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact__infor {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+  .contact__infor div {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact__infor div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .contact__map {
+    width: 100%;
+    /* height: 300px; */
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact__map iframe {
+    /* width: 100%; */
+    height: 300px;
+    margin-bottom: 15px;
+  }
+}

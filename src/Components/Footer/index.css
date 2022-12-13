@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1280px) {
+  .lightMode .footer__logo,
+  .darkMode .footer__logo {
+    width: 70px;
+    height: 70px;
+  }
+  .lightMode .footer__brand p,
+  .darkMode .footer__brand p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .lightMode .footer1__inner,
+  .darkMode .footer1__inner {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .lightMode .footer__address1,
+  .darkMode .footer__address1 {
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .lightMode .footer_addressGmail,
+  .lightMode .footer_addressWebsite,
+  .darkMode .footer_addressGmail,
+  .darkMode .footer_addressWebsite {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .lightMode .footer2__inner,
+  .darkMode .footer2__inner {
+    flex-direction: column;
+  }
+  .lightMode .footer2,
+  .darkMode .footer2 {
+    height: 100%;
+  }
+  .lightMode .footer__contribute,
+  .darkMode .footer__contribute {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

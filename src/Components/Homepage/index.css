@@ -1,0 +1,52 @@
+.darkMode .homepageAdaco {
+    background-color: gray;
+}
+
+.lightMode .homepageAdaco {
+    background-color: white;
+}
+
+/* @media only screen and (max-width:800px) {
+    .lightMode .more_product__btn, .darkMode .more_product__btn {
+        width: 120px;
+    }
+    .lightMode .card__product, .darkMode .card__product {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .lightMode .slideshow__button, .darkMode .slideshow__button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .lightMode .infor__top__products, .darkMode .infor__top__products {
+        flex-direction: column;
+    }
+    .lightMode .more_product__btn, .darkMode .more_product__btn {
+        margin-top:10px;
+        width: 120px;
+    }
+    .lightMode .card__product, .darkMode .card__product {
+        width: 35%;
+        margin-bottom: 20px;
+    }
+    .lightMode #subtitle__top__products, .darkMode #subtitle__top__products {
+        display: none;
+    }
+    .lightMode .about__company__link, .darkMode .about__company__link {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .lightMode .card__product, .darkMode .card__product {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .lightMode .top__product__list, .darkMode .top__product__list {
+        align-items: center;
+        justify-content: center;
+    }
+
+} */

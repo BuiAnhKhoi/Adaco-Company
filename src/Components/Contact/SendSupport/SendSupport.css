@@ -1,0 +1,161 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+.darkMode .sendSupport {
+  background-color: gray;
+}
+.contact__inner2 {
+  width: 75%;
+  margin: 50px auto;
+  padding-top: 15px;
+}
+
+.send__question {
+  position: relative;
+}
+
+.lightMode #send__questionTitle {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.darkMode #send__questionTitle {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.send__questionInner {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.require__infor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.darkMode .require__infor p {
+  color: white;
+}
+
+.require__infor div p,
+.require__content p {
+  font-weight: 600;
+}
+
+.require__infor div p span,
+.require__content p span {
+  float: right;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.lightMode .require__infor div input {
+  background-color: rgba(226, 220, 220, 70%);
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+.darkMode .require__infor div input {
+  background-color: rgba(226, 220, 220, 70%);
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+.require__infor div input:hover,
+.require__infor div input:focus {
+  border: 1px solid black;
+  background-color: rgba(226, 220, 220, 100%);
+}
+
+.require__content textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  font-size: 20px;
+  resize: none;
+}
+
+.lightMode .require__content p {
+  color: black;
+}
+
+.darkMode .require__content p {
+  color: white;
+}
+
+.lightMode #button__sendQuestion {
+  position: absolute;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+  background-color: #0500ff;
+  width: 400px;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: max-content;
+}
+
+.darkMode #button__sendQuestion {
+  position: absolute;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 10px;
+  width: 400px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: max-content;
+}
+
+#button__sendQuestion:hover {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 1280px) {
+  .require__infor {
+    flex-direction: column;
+  }
+  .lightMode .require__infor div input,
+  .darkMode .require__infor div input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .lightMode #send__questionTitle,
+  .darkMode #send__questionTitle {
+    font-size: 1.5rem;
+  }
+
+  .contact__inner2 {
+    margin: 100px auto;
+    margin-top: 15px;
+  }
+  .lightMode #button__sendQuestion,
+  .darkMode #button__sendQuestion {
+    width: 200px;
+  }
+}

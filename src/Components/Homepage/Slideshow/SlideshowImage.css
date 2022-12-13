@@ -1,0 +1,41 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+} */
+
+.slideshow__inner {
+  padding-top: 15px;
+}
+
+.each-slide {
+  height: 500px;
+  width: 100vw;
+}
+
+.each-slide div {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .each-slide {
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .each-slide {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .each-slide {
+    height: 25vh;
+  }
+}
