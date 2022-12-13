@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 import "./AllProducts.css";
 
 const json = require("../../../assets/data/allProduct.json");
@@ -13,7 +12,6 @@ const AllProduct = () => {
 
   function showAllProduct() {
     let elementAllProduct = [];
-
     for (let indexJson in json) {
       elementAllProduct.push(
         <div class="card__item">
@@ -71,7 +69,6 @@ const AllProduct = () => {
             </div>
           </button>
         </div>
-
         <div class="all__products">{showAllProduct()}</div>
       </div>
     </div>
