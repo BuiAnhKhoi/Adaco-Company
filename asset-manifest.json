@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83879844.css",
+    "main.js": "/static/js/main.97f7ce53.js",
+    "static/media/SlideshowImage1.JPG": "/static/media/SlideshowImage1.24a9db9b379806c6cf38.JPG",
+    "static/media/SlideshowImage3.JPG": "/static/media/SlideshowImage3.25129b0c5a91d15dd843.JPG",
+    "static/media/SlideshowImage4.JPG": "/static/media/SlideshowImage4.d07f65b1d921d42f75bf.JPG",
+    "static/media/SlideshowImage2.JPG": "/static/media/SlideshowImage2.c9a50173fa04f5460e3e.JPG",
+    "static/media/product_1_1.png": "/static/media/product_1_1.8747edf953ce71b3c8da.png",
+    "static/media/product_2_1.png": "/static/media/product_2_1.7f5bafb580f29933bba5.png",
+    "static/media/product_8_1.png": "/static/media/product_8_1.04c42ef38e23628a10a5.png",
+    "static/media/product_7_1.png": "/static/media/product_7_1.fd3bf76bfc1778a3a66e.png",
+    "static/media/product_4_1.png": "/static/media/product_4_1.6f5ad45616e72dfdfada.png",
+    "static/media/product_11_1.png": "/static/media/product_11_1.8a62d581772fc1646ae4.png",
+    "static/media/product_5_1.png": "/static/media/product_5_1.152a87b378e657514c8c.png",
+    "static/media/product_13_1.png": "/static/media/product_13_1.72eb23147af407c86506.png",
+    "static/media/product_12_1.png": "/static/media/product_12_1.4714f08be293a31e24fe.png",
+    "static/media/product_6_1.png": "/static/media/product_6_1.7cef4561b5681401b85c.png",
+    "static/media/product_10_1.png": "/static/media/product_10_1.7d7d40cc9fbfd685f617.png",
+    "static/media/product_16_1.png": "/static/media/product_16_1.442d4408a84d82ee554c.png",
+    "static/media/product_3_1.png": "/static/media/product_3_1.bfc4af5b2e691daab9fe.png",
+    "static/media/product_14_1.png": "/static/media/product_14_1.a80c1ffb7655adecee77.png",
+    "static/media/product_9_1.png": "/static/media/product_9_1.8f6c847731daae67826b.png",
+    "static/media/product_15_1.png": "/static/media/product_15_1.9b707c24e8176084f45c.png",
+    "index.html": "/index.html",
+    "main.83879844.css.map": "/static/css/main.83879844.css.map",
+    "main.97f7ce53.js.map": "/static/js/main.97f7ce53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83879844.css",
+    "static/js/main.97f7ce53.js"
+  ]
+}
