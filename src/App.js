@@ -15,11 +15,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route
-          index
-          path="/"
-          element={<HomePage title={t("homepageHeaderMenu")} />}
-        ></Route>
+        <Route index element={<HomePage />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/allproducts" element={<AllProducts />}></Route>
       </Routes>
